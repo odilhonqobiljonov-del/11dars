@@ -1,0 +1,68 @@
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(89, 89, 92);
+}
+
+body{
+    background-color: rgb(62, 62, 63);
+}
+
+.title, h2{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 420px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+}
+
+
+table{
+    width: 100%;
+    text-align: center;
+    border: .3px solid rgba(224, 224, 224, 0.597);
+    border-spacing: 0;
+}
+td, th{
+    border: .3px solid rgba(176, 173, 173, 0.597);
+    color: white;
+}
+
+tr{
+    background-color: rgb(40, 40, 41);
+}
+
+tr:nth-child(1){
+    background-color: tomato;
+}
+
+.card{
+    background-color: rgb(35, 35, 36);
+    width: 360px;
+    border-radius: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card img{
+    width: 100%;
+    box-shadow: none;
+    border-radius: 15px 15px 0 0;
+}
+
+.card h3{
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
